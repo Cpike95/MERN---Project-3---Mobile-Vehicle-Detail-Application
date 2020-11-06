@@ -1,7 +1,7 @@
 const sgMail = require('@sendgrid/mail'); //sendgrid library to send emails
 
 exports.sendContactMail = function (req, res) {
-	sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+	sgMail.setApiKey(process.env.SENDGRID_API_KEY || SENDGRID_API_KEY);
 
 	//Get Variables from query string in the search bar
 	const { sender, topic, text, name, phone, vehicle } = req.query;
@@ -31,7 +31,7 @@ exports.sendContactMail = function (req, res) {
 	);
 };
 exports.sendClientMail = function (req, res) {
-	sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+	sgMail.setApiKey(process.env.SENDGRID_API_KEY || SENDGRID_API_KEY);
 
 	//Get Variables from query string in the search bar
 	const { email, name } = req.query;
@@ -56,7 +56,7 @@ exports.sendClientMail = function (req, res) {
 	);
 };
 exports.sendBookedMail = function (req, res) {
-	sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+	sgMail.setApiKey(process.env.SENDGRID_API_KEY || SENDGRID_API_KEY);
 
 	//Get Variables from query string in the search bar
 	const { phone, email, address1, name, address2, city, state, zip, makemodel, notes, carlocation, datereq, timereq } = req.query;
