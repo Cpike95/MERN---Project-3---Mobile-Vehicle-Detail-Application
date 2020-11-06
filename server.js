@@ -51,8 +51,8 @@ app.use(cors());
 
 app.use(routes);
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/GerrasDetailingUser', () => {
-	console.log('Successful Connect to DB');
+mongoose.connect(process.env.MONGODB_URI || MONGODB_URI || 'mongodb://localhost/GerrasDetailingUser', () => {
+    console.log('Successful Connect to DB');
 });
 
 // Send every other request to the React app
