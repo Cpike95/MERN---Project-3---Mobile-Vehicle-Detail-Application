@@ -43,14 +43,14 @@ class BookingServiceForm extends React.Component {
   sendMail = async (e) => {
     const email = this.state;
     fetch(
-      `http://localhost:3002/api/mail/book/?email=${email.email}&name=${email.name}&phone=${email.phone}&address1=${email.address1}&address2=${email.address2}&city=${email.city}&state=${email.state}&zip=${email.zip}&makemodel=${email.makemodel}&notes=${email.notes}&carlocation=${email.carlocation}&datereq=${email.datereq}&timereq=${email.timereq}`
+      `http://www.gerasdetailing.com/api/mail/book/?email=${email.email}&name=${email.name}&phone=${email.phone}&address1=${email.address1}&address2=${email.address2}&city=${email.city}&state=${email.state}&zip=${email.zip}&makemodel=${email.makemodel}&notes=${email.notes}&carlocation=${email.carlocation}&datereq=${email.datereq}&timereq=${email.timereq}`
     ) //query string url
       .catch((err) => console.error(err));
   };
   sendClientMail = async (e) => {
     const email = this.state;
     fetch(
-      `http://localhost:3002/api/mail/client/?email=${email.email}&name=${email.name}`
+      `http://www.gerasdetailing.com/api/mail/client/?email=${email.email}&name=${email.name}`
     ) //query string url
       .catch((err) => console.error(err));
   };
