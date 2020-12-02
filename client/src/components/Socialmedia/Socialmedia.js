@@ -29,12 +29,12 @@ export default function Socialmedia() {
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="2">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia2.jpg" alt="Second slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia2.JPG" alt="Second slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="3">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia3.jpg" alt="Third slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia3.JPG" alt="Third slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="4">
