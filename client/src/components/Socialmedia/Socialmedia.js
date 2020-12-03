@@ -20,16 +20,16 @@ export default function Socialmedia() {
 		<div className="Socialmedia-Full-Container" id="gallery">
 			<h2 className="Socialmedia-Section-Title">Image Gallery</h2>
 			<MDBContainer>
-				<MDBCarousel activeItem={1} length={4} showControls={true} showIndicators={false} className="z-depth-1" slide>
+				<MDBCarousel activeItem={1} length={7} showControls={true} showIndicators={false} className="z-depth-1" slide>
 					<MDBCarouselInner>
 						<MDBCarouselItem itemId="1">
-							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia1.JPG" alt="First slide" />
+								<MDBView>
+									<img className="d-block w-100" src="./Assets/Images/socialmedia5.JPG" alt="First slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="2">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia2.JPG" alt="Second slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia2.png" alt="Second slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="3">
@@ -39,7 +39,22 @@ export default function Socialmedia() {
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="4">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia4.jpg" alt="Fourth slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia4.JPG" alt="Fourth slide" />
+							</MDBView>
+						</MDBCarouselItem>
+						<MDBCarouselItem itemId="5">
+							<MDBView>
+								<img className="d-block w-100" src="./Assets/Images/socialmedia1.JPG" alt="Fifth slide" />
+							</MDBView>
+						</MDBCarouselItem>
+						<MDBCarouselItem itemId="6">
+							<MDBView>
+								<img className="d-block w-100" src="./Assets/Images/socialmedia6.JPG" alt="Sixth slide" />
+							</MDBView>
+						</MDBCarouselItem>
+						<MDBCarouselItem itemId="7">
+							<MDBView>
+								<img className="d-block w-100" src="./Assets/Images/socialmedia7.jpg" alt="Seventh slide" />
 							</MDBView>
 						</MDBCarouselItem>
 					</MDBCarouselInner>
