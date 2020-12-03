@@ -24,39 +24,24 @@ export default function Socialmedia() {
 					<MDBCarouselInner>
 						<MDBCarouselItem itemId="1">
 								<MDBView>
-									<img className="d-block w-100" src="./Assets/Images/socialmedia4.JPG" alt="First slide" />
+									<img className="d-block w-100" src="./Assets/Images/socialmedia4.jpg" alt="First slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="2">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia8.JPG" alt="Second slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia8.jpg" alt="Second slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="3">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia1.JPG" alt="Third slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia1.jpg" alt="Third slide" />
 							</MDBView>
 						</MDBCarouselItem>
 						<MDBCarouselItem itemId="4">
 							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia3.JPG" alt="Fourth slide" />
+								<img className="d-block w-100" src="./Assets/Images/socialmedia3.jpg" alt="Fourth slide" />
 							</MDBView>
 						</MDBCarouselItem>
-						{/* <MDBCarouselItem itemId="5">
-							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia1.JPG" alt="Fifth slide" />
-							</MDBView>
-						</MDBCarouselItem>
-						<MDBCarouselItem itemId="6">
-							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia6.JPG" alt="Sixth slide" />
-							</MDBView>
-						</MDBCarouselItem>
-						<MDBCarouselItem itemId="7">
-							<MDBView>
-								<img className="d-block w-100" src="./Assets/Images/socialmedia7.jpg" alt="Seventh slide" />
-							</MDBView> */}
-						{/* </MDBCarouselItem> */}
 					</MDBCarouselInner>
 				</MDBCarousel>
 			</MDBContainer>
