@@ -43,7 +43,7 @@ export const WashPackages = [
 	{
 		id: 2,
 		packageCat: 'Complete Package',
-		packageName: 'All in One Service Light Polish',
+		packageName: 'All in One Service & Light Polish',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
 			'Hand Wash w/ new microfiber towel',

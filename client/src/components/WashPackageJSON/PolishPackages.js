@@ -25,7 +25,7 @@ export const PolishPackages = [
         packageEstimatedTimeTitle: 'Est. Time:',
         packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
         tNailSRC: '/Assets/Images/OneStepPolish.jpg',
-        PackageDetailParagraph: 'Quick and affordable exterior detailing package.',
+        PackageDetailParagraph: 'Specialized vehicle exterior detailing package.',
     },
     {
         id: 4,
@@ -52,6 +52,6 @@ export const PolishPackages = [
         packageEstimatedTimeTitle: 'Est. Time:',
         packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
         tNailSRC: '/Assets/Images/TwoStepPolish.jpg',
-        PackageDetailParagraph: 'Quick and affordable exterior detailing package.',
+        PackageDetailParagraph: 'Specialized vehicle exterior detailing package.',
     },
 ];
