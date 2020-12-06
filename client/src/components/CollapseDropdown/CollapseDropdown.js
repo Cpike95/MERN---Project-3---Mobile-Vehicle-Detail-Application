@@ -41,7 +41,7 @@ class CollapseDropdown extends Component {
 						})}
 					</ul>
 					<h4 className="Disclaimer-Title">Disclaimer:</h4>
-					<p className="Disclaimer-Note">Prices are subject to change depending on the condition of the vehicle. Prices estimates and descriptions. For accurate quote please contact via phone at (818) 915-1828 or use the contact form at the bottom of the webpage</p>
+					<p className="Disclaimer-Note">'Prices are subject to change depending on the condition of the vehicle. For an accurate quote please contact me via phone at (818)915-1828 or use the contact form at the bottom of the webpage. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment. </p>
 				</MDBCollapse>
 			</>
 		);

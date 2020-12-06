@@ -35,7 +35,7 @@ export default function Pricing() {
 							})}
 						</MDBRow>
 						<MDBRow>
-							{CleaningPackages.map((item, index) => {
+							{PolishPackages.map((item, index) => {
 								return (
 									<MDBCol xl="4" className="pb-4">
 										<Packagecard
@@ -55,7 +55,7 @@ export default function Pricing() {
 							})}
 						</MDBRow>
 						<MDBRow>
-							{PolishPackages.map((item, index) => {
+							{CleaningPackages.map((item, index) => {
 								return (
 									<MDBCol xl="4" className="pb-4">
 										<Packagecard
