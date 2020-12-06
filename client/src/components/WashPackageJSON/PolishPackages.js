@@ -21,7 +21,7 @@ export const PolishPackages = [
             'Final Wipe Down w/ Carnauba Wax'
         ],
         packagePriceTitle: 'Prices:',
-        packagePriceArr: ['For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+        packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
         packageEstimatedTimeTitle: 'Est. Time:',
         packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
         tNailSRC: '/Assets/Images/OneStepPolish.jpg',
@@ -48,7 +48,7 @@ export const PolishPackages = [
             'Final Wipe Down w/ Carnauba Wax'
         ],		
         packagePriceTitle: 'Prices:',
-        packagePriceArr: ['For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+        packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
         packageEstimatedTimeTitle: 'Est. Time:',
         packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
         tNailSRC: '/Assets/Images/TwoStepPolish.jpg',

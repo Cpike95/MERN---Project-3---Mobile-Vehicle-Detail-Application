@@ -6,7 +6,7 @@ export const WashPackages = [
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: ['Hand Wash w/ new microfiber towel', 'Deep clean Wheels, Tires, Fenders, Gas Cap', 'Air dry with filtered air ', 'Wipe Down Door Jambs, Cup Holders, and Center Console ', 'Thorough Vacuum ', 'Clean Exterior Glass & Windows', 'Dress Tires', 'Final Wipe Down w/ Carnauba Wax ', '(All chemicals used are of high quality & are water based to avoid any damage to vehicle)'],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Prices are subject to change depending on condition of the vehicle. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/ExpressDetail.jpg',
@@ -33,7 +33,7 @@ export const WashPackages = [
 			'(All chemicals used are of high quality & are water based to avoid any damage to vehicle)' 
 			],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 
@@ -64,7 +64,7 @@ export const WashPackages = [
 			'Final Wipe Down w/ Carnauba Wax',
 		],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/AllInOneCleaning.jpg',
