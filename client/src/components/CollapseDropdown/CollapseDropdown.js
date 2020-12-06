@@ -27,12 +27,12 @@ class CollapseDropdown extends Component {
 						})}
 					</ul>
 
-					<h4 className="Package-BulletPts-Title">{this.props.packagePriceTitle}</h4>
+					{/* <h4 className="Package-BulletPts-Title">{this.props.packagePriceTitle}</h4>
 					<ul>
 						{this.props.packagePriceArr.map((item, index) => {
 							return <li className="Package-BulletPts text-left">{item}</li>;
 						})}
-					</ul>
+					</ul> */}
 
 					<h4 className="Package-BulletPts-Title">{this.props.packageEstimatedTimeTitle}</h4>
 					<ul>
@@ -41,7 +41,7 @@ class CollapseDropdown extends Component {
 						})}
 					</ul>
 					<h4 className="Disclaimer-Title">Disclaimer:</h4>
-					<p className="Disclaimer-Note">'Prices are subject to change depending on the condition of the vehicle. For an accurate quote please contact me via phone at (818)915-1828 or use the contact form at the bottom of the webpage. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment. </p>
+					<p className="Disclaimer-Note">Prices are subject to change depending on the condition of the vehicle and additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud and heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828 or use the contact form at the bottom of the webpage. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment. </p>
 				</MDBCollapse>
 			</>
 		);

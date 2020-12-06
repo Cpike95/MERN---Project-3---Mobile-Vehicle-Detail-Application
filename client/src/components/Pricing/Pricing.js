@@ -24,8 +24,8 @@ export default function Pricing() {
 											packageName={item.packageName}
 											packageDetailTitle={item.packageDetailTitle}
 											packageDetailBullets={item.packageDetailBullets}
-											packagePriceTitle={item.packagePriceTitle}
-											packagePriceArr={item.packagePriceArr}
+											// packagePriceTitle={item.packagePriceTitle}
+											// packagePriceArr={item.packagePriceArr}
 											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
@@ -44,8 +44,8 @@ export default function Pricing() {
 											packageName={item.packageName}
 											packageDetailTitle={item.packageDetailTitle}
 											packageDetailBullets={item.packageDetailBullets}
-											packagePriceTitle={item.packagePriceTitle}
-											packagePriceArr={item.packagePriceArr}
+											// packagePriceTitle={item.packagePriceTitle}
+											// packagePriceArr={item.packagePriceArr}
 											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
@@ -64,8 +64,8 @@ export default function Pricing() {
 											packageName={item.packageName}
 											packageDetailTitle={item.packageDetailTitle}
 											packageDetailBullets={item.packageDetailBullets}
-											packagePriceTitle={item.packagePriceTitle}
-											packagePriceArr={item.packagePriceArr}
+											// packagePriceTitle={item.packagePriceTitle}
+											// packagePriceArr={item.packagePriceArr}
 											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
