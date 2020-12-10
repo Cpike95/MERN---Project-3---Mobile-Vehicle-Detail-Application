@@ -17,7 +17,7 @@ export default function About() {
 								Gera’s Automotive Detailing was first established in early 2020 by Owners/Operators Gerardo Yanez & Stephanie Janet Ibarria. 
 								Gerardo had the privilege of learning the craft from his best friend, Victor Gutierrez, in 2010. Naturally, what was a hobby would soon come to unfold as the business you see today as his passion for cars compliments his craft for detailing. 
 								Their mission at Gera’s Auto Detailing is to educate customers on what the proper tools, and techniques are used to protect your vehicles. 
-								They do everythingto ensure you will be beyond satisfied with the results, as they treat each and every vehicle as if it were their own. Book your appointment today!
+								They do everything to ensure you will be beyond satisfied with the results, as they treat each and every vehicle as if it were their own. Book your appointment today!
 								</MDBCardText>
 							</MDBCardBody>
 						</MDBJumbotron>
