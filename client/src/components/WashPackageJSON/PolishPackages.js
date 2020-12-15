@@ -11,7 +11,6 @@ export const PolishPackages = [
             'Clay Exterior Surfaces (Removes dirty & grime build up)',
             'Paint Decontamination (Iron Removal)',
             'Apply Wax/Sealant For Shine & Layer of Protection',
-            '(All chemicals uszed are of high quality & are water based to avoid any damage to vehicle)'
         ],
         // packagePriceTitle: 'Prices:',
         // packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
@@ -32,7 +31,6 @@ export const PolishPackages = [
             'Clay Exterior Surfaces for a smooth surface (Removes dirty & grime build up)',
             'Apply Wax/Sealant For Shine & Layer of Protection',
             'Final Wipe Down w/ Carnauba Wax',
-            '(All chemicals uszed are of high quality & are water based to avoid any damage to vehicle)'
         ],		
         // packagePriceTitle: 'Prices:',
         // packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],

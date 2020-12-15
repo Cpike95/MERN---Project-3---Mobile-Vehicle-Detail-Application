@@ -11,7 +11,6 @@ export const CleaningPackages = [
 			'Wiping Down Dust Of All Surfaces', 
 			'Steam Cleaning & Shampoo carpert extraction', 
 			'Cleaning & Conditioning Leather & Trim', 
-			'(All chemicals used are of high quality & are water based to avoid any damage to vehicle)'
 		],
 		// packagePriceTitle: 'Prices:',
 		// packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
