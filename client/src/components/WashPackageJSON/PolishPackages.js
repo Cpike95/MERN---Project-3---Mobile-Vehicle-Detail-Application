@@ -22,6 +22,27 @@ export const PolishPackages = [
     {
         id: 4,
         packageCat: 'Detailing Services',
+        packageName: 'Paint Enhancement + 2 yr Ceramic Coating',
+        packageDetailTitle: 'Package Includes:',
+        packageDetailBullets: [
+            'Express Detail package',
+            'Clay Exterior Surfaces for a smooth surface (Removes dirty & grime build up)',
+            'Paint Decontamination (Iron Removal)',
+            'One Step Polish remove swirls, scratches.',
+            'Apply Single Layer of Ceramic Coating For Ultimate Protection.',
+            'Apply Wax/Sealant For Shine & Layer of Protection',
+            'Final Wipe Down w/ Carnauba Wax',
+        ],		
+        // packagePriceTitle: 'Prices:',
+        packagePriceArr: ['Prices vary on the condition of the vehicle. We also offer a 2For additional layers and services give us a call for a consultation today.'],
+        packageEstimatedTimeTitle: 'Est. Time:',
+        packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
+        tNailSRC: '/Assets/Images/OneStepPolish.jpg',
+        PackageDetailParagraph: 'Specialized vehicle exterior detailing package.',
+    },
+    {
+        id: 5,
+        packageCat: 'Detailing Services',
         packageName: 'Paint correction',
         packageDetailTitle: 'Package Includes:',
         packageDetailBullets: [

@@ -1,6 +1,6 @@
 export const CleaningPackages = [
 	{
-		id: 3,
+		id: 6,
 		packageCat: 'Cleaning Services',
 		packageName: 'Deep Interior Cleaning with Express Detail',
 		packageDetailTitle: 'Package Includes:',
@@ -20,7 +20,7 @@ export const CleaningPackages = [
 		PackageDetailParagraph: 'Through interior cleaning and shampooing package.',
 	},
 	{
-		id: 5,
+		id: 7,
 		packageCat: 'Cleaning Services',
 		packageName: 'Engine Cleaning',
 		packageDetailTitle: 'Package Includes:',
