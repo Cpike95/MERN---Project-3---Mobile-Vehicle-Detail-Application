@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import { MDBContainer, MDBBtn } from 'mdbreact';
+import {  FaInstagram, FaLinkedin  } from "react-icons/fa";
 
 import './Introtile.css';
-
+{/* <a href="https://github.com/Cpike95"><FaGithub /></a> */}
 export default function Introtile() {
 	return (
 		<div className="Introtile-Full-Container" id="home">
@@ -16,6 +17,11 @@ export default function Introtile() {
 				<Fragment>
 					<MDBBtn href="#pricing" id="Introtile-Book-BTN" className="text-left" color="danger-color-dark">
 						View Detailing Packages
+					</MDBBtn>
+				</Fragment>
+				<Fragment>
+					<MDBBtn href="https://www.instagram.com/geras_automotive_detailing/" id="instagram" color="danger-color-dark" className="insta" >
+						<FaInstagram/>
 					</MDBBtn>
 				</Fragment>
 			</MDBContainer>
