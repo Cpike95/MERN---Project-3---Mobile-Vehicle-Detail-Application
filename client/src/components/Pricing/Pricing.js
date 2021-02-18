@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import { WashPackages } from '../WashPackageJSON/WashPackages';
-import { CleaningPackages } from '../WashPackageJSON/CleaningPackages';
+// import { CleaningPackages } from '../WashPackageJSON/CleaningPackages';
 import { PolishPackages } from '../WashPackageJSON/PolishPackages';
 
 import './Pricing.css';
@@ -54,7 +54,7 @@ export default function Pricing() {
 								);
 							})}
 						</MDBRow>
-						<MDBRow>
+						{/* <MDBRow>
 							{CleaningPackages.map((item, index) => {
 								return (
 									<MDBCol xl="4" className="pb-4">
@@ -73,7 +73,7 @@ export default function Pricing() {
 									</MDBCol>
 								);
 							})}
-						</MDBRow>
+						</MDBRow> */}
 					</div>
 				</section>
 			</MDBContainer>
