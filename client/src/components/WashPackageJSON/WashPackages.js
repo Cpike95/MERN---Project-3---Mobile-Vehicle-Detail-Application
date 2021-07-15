@@ -5,14 +5,15 @@ export const WashPackages = [
 		packageName: 'Express Detail',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
-			'Hand Wash w/ new microfiber towel', 
+			'100 % Hand Wash w/ Brand New Microfiber Towel', 
 			'Deep clean Wheels, Tires, Fenders, Gas Cap', 
-			'Air dry with filtered air ', 
+			'Air Dry w/ Filter Air (Prevents Micro-scratching) ', 
 			'Wipe Down Door Jambs, Cup Holders, and Center Console ', 
 			'Thorough Vacuum ', 
 			'Clean Exterior Glass & Windows', 
-			'Dress Tires', 
-			'Final Wipe Down w/ Carnauba Wax ',
+			'Dress Tires & Fenders', 
+			'Final Wipe Down w/ Detail Spray ',
+			'(All chemicals used are of high quality & are water based to avoid any damage to vehicle) '
 		],
 		// packagePriceTitle: 'Prices:',
 		// packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
@@ -20,7 +21,8 @@ export const WashPackages = [
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/ExpressDetail.jpg',
 		PackageDetailParagraph: 'Quick and affordable exterior detailing package.',
-	},
+		packageDepositTitle: 'Deposits: ',
+		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']	},
 	{
 		id: 1,
 		packageCat: 'Detailing Services',
@@ -28,9 +30,11 @@ export const WashPackages = [
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [ 
 			'Express Detail package',
-			'Clay exterior surfaces (Removes dirty & grime build up)', 
-			'Paint Decontamination (Iron Removal)', 
-			'Apply Wax/Sealant For Shine & Layer of Protection', 
+			'Clay exterior surfaces (Removes dirty & grime build up) *', 
+			'Paint Decontamination (Removes Iron Contamination from Paint) *', 
+			'Apply Wax/Sealant For Shine & Layer of Protection *',
+			'Final Wipe Down w/ Carnauba Wax Spray',
+			'(All chemicals used are of high quality & are water based to avoid any damage to vehicle) '
 			],
 		// packagePriceTitle: 'Prices:',
 		// packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
@@ -39,6 +43,8 @@ export const WashPackages = [
 
 		tNailSRC: '/Assets/Images/PricingTnails/DetailWashNWax.jpg',
 		PackageDetailParagraph: 'Specialized vehicle exterior detailing package.',
+		packageDepositTitle: 'Deposits: ',
+		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']
 	},
 	{
 		id: 2,
@@ -47,17 +53,24 @@ export const WashPackages = [
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
 			'Express Detail package',
-			'Light Polish with All in One compound',
-			'Clay exterior surfaces (Removes dirty & grime build up)', 
-			'Paint Decontamination (Iron Removal)', 
+			' Deep Clean Wheels, Tires, Fenders, Gas Cap *',
+			'Paint Decontamination (Removes Iron Contamination from Paint) *', 
+			'Clay exterior surfaces (Removes dirty & grime build up) *', 
+			'Light Polish with All in One compound. (Removes Micro-Scratches, Light Oxidation, Adds Protection ) *',
 			'Apply Wax/Sealant For Shine & Layer of Protection', 
 			'Clean and polish emblems',
+			'Final Wipe Down w/ Carnauba Wax Spray',
+			'(All chemicals used are of high quality & are water based to avoid any damage to vehicle) '
+
 		],
+		packageBonusTitle: 'Bonus',
+		packageBonusArr: ['Interior Leather/Plastic Parts Reconditioning', 'Dress Exterior Trims (Recondition of Black Trims)'],
 		// packagePriceTitle: 'Prices:',
 		// packagePriceArr: ['Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/AllInOneCleaning.jpg',
 		PackageDetailParagraph: 'All encompassing vehicle detailing package.',
-	},
+		packageDepositTitle: 'Deposits: ',
+		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']	},
 ];

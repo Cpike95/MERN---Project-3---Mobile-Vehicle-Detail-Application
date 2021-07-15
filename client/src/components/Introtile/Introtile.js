@@ -20,7 +20,7 @@ export default function Introtile() {
 					</MDBBtn>
 				</Fragment>
 				<Fragment>
-					<MDBBtn href="https://www.instagram.com/geras_automotive_detailing/" id="instagram" color="danger-color-dark" className="insta" >
+					<MDBBtn href="https://www.instagram.com/gerasprodetailing/" id="instagram" color="danger-color-dark" className="insta" target='_blank' >
 						<FaInstagram/>
 					</MDBBtn>
 				</Fragment>

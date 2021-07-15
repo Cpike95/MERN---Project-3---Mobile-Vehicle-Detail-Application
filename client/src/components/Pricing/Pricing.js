@@ -26,6 +26,8 @@ export default function Pricing() {
 											packageDetailBullets={item.packageDetailBullets}
 											// packagePriceTitle={item.packagePriceTitle}
 											// packagePriceArr={item.packagePriceArr}
+											packageBonusTitle={item.packageBonusTitle}
+											packageBonusArr={item.packageBonusArr}
 											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
@@ -46,6 +48,8 @@ export default function Pricing() {
 											packageDetailBullets={item.packageDetailBullets}
 											// packagePriceTitle={item.packagePriceTitle}
 											// packagePriceArr={item.packagePriceArr}
+											packageBonusTitle={item.packageBonusTitle}
+											packageBonusArr={item.packageBonusArr}
 											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
