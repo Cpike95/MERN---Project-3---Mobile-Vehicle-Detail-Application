@@ -13,8 +13,6 @@ class CollapseDropdown extends Component {
 	};
 
 	render() {
-	console.log(this.props)
-
 		return (
 			<>
 				<MDBBtn color="danger" onClick={this.toggleCollapse('basicCollapse')} style={{ marginBottom: '1rem' }}>

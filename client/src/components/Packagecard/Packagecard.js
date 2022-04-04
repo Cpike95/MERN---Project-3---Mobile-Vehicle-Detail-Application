@@ -5,7 +5,6 @@ import CollapseDropdown from '../CollapseDropdown/CollapseDropdown';
 import BookServiceModal from '../BookServiceModal/BookServiceModal';
 
 const Packagecard = (props) => {
-	console.log(`PROPS`, props)
 	return (
 		<MDBCol>
 			<MDBCard className="mx-auto" style={{ width: '20rem' }}>

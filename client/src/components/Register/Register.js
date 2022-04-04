@@ -14,7 +14,6 @@ export default function Register() {
         password: userData.password,
       })
       .then(function (data) {
-        console.log("data stuff", data);
         if (data.duplicateUser) {
           // Replace with Modal
           alert("Sorry, that username has been taken");
@@ -49,7 +48,6 @@ export default function Register() {
     }
 
     // If we have an email and password we run the loginUser function and clear the form
-    console.log(objSubmit);
     signUpUser(objSubmit);
   }
 
