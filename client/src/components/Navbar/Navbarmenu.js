@@ -19,7 +19,7 @@ class NavbarPage extends Component {
 				<MDBNavbar color="elegant-color-dark" dark expand="md" className="sticky-top" id="top">
 					<MDBContainer>
 						<MDBNavbarBrand>
-							<strong className="white-text">Gera's Automotive Detailing</strong>
+							<strong className="white-text">Gera's Pro Detailing</strong>
 						</MDBNavbarBrand>
 						<MDBNavbarToggler onClick={this.toggleCollapse} />
 						<MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
