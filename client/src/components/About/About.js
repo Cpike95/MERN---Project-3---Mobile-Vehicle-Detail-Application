@@ -11,7 +11,7 @@ export default function About() {
 						<MDBJumbotron>
 							<MDBCardBody>
 								<MDBCardTitle className="h2">About us</MDBCardTitle>
-								<img src="/Assets/Images/FinalLogo1.png" alt="Logo" className="LogoImage-About" />
+								<img src="/Assets/Images/gerasProLogo.png" style={{width: '300px', height: '300px'}} alt="Logo" className="LogoImage-About" />
 								<p className="blue-text my-4 font-weight-bold">Family owned and operrated. EST 2020</p>
 								<MDBCardText>
 								Gera’s Automotive Detailing was first established in early 2020 by Owners/Operators Gerardo Yanez & Stephanie Janet Ibarria. 
