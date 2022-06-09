@@ -16,7 +16,7 @@ toggle = nr => () => {
 render() {
   return (
       <MDBContainer>
-        <p className=".z-depth-0" color="transparent" onClick={this.toggle(14)}>Access</p>
+        {/* <p className=".z-depth-0" color="transparent" onClick={this.toggle(14)}>Access</p> */}
         <MDBModal isOpen={this.state.modal14} toggle={this.toggle(14)} centered>
           <MDBModalHeader toggle={this.toggle(14)}>Login</MDBModalHeader>
           <MDBModalBody>
