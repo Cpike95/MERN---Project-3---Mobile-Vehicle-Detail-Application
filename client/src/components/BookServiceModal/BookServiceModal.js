@@ -20,9 +20,9 @@ class BookServiceModal extends Component {
 	render() {
 		return (
 			<MDBContainer>
-				<MDBBtn outline color="danger" onClick={this.toggle(1)}>
+				{/* <MDBBtn outline color="danger" onClick={this.toggle(1)}>
 					Book Package
-				</MDBBtn>
+				</MDBBtn> */}
 				<MDBModal isOpen={this.state.modal1} toggle={this.toggle(1)} size="xl">
 					<MDBModalHeader toggle={this.toggle(1)}>Book Package: {this.props.packageName}</MDBModalHeader>
 					<MDBModalBody>
