@@ -18,7 +18,6 @@ import { UserContext } from './components/UserContext';
 function App() {
 
 	const [authorize, setAuthorize] = useState(false);
-	console.log('user context is', authorize)
 
 	return (
 		<div className="App">

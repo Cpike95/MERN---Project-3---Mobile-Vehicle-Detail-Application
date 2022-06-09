@@ -22,21 +22,21 @@ class CollapseDropdown extends Component {
 					<h4 className="Package-BulletPts-Title">{this.props.packageDetailTitle}</h4>
 					<ul>
 						{this.props.packageDetailBullets.map((item, index) => {
-							return <li className="Package-BulletPts text-left">{item}</li>;
+							return <li className="Package-BulletPts text-left" key={index} >{item}</li>;
 						})}
 					</ul>
 
 					<h4 className="Package-BulletPts-Title">{this.props.packageBonusTitle}</h4>
 					<ul>
 						{this.props.packageBonusArr ? this.props.packageBonusArr.map((item, index) => {
-							return <li className="Package-BulletPts text-left">{item}</li>;
+							return <li className="Package-BulletPts text-left" key={index} >{item}</li>;
 						}) : ''}
 					</ul>
 
 					<h4 className="Package-BulletPts-Title">{this.props.packageEstimatedTimeTitle}</h4>
 					<ul>
 						{this.props.packageEstimatedTimeArr.map((item, index) => {
-							return <li className="Package-BulletPts text-left">{item}</li>;
+							return <li className="Package-BulletPts text-left" key={index} >{item}</li>;
 						})}
 					</ul>
 					<h5 className="Disclaimer-Title">Deposit: </h5>

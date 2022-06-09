@@ -17,7 +17,7 @@ export default function Pricing() {
 						<MDBRow>
 							{WashPackages.map((item, index) => {
 								return (
-									<MDBCol xl="4" className="pb-4 ">
+									<MDBCol xl="4" className="pb-4 " key={index}>
 										<Packagecard
 											image={item.tNailSRC}
 											packageCat={item.packageCat}
@@ -39,7 +39,7 @@ export default function Pricing() {
 						<MDBRow>
 							{PolishPackages.map((item, index) => {
 								return (
-									<MDBCol xl="4" className="pb-4">
+									<MDBCol xl="4" className="pb-4" key={index}>
 										<Packagecard
 											image={item.tNailSRC}
 											packageCat={item.packageCat}

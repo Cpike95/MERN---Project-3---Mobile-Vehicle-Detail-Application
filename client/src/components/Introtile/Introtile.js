@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { MDBContainer, MDBBtn } from 'mdbreact';
-import {  FaInstagram, FaLinkedin  } from "react-icons/fa";
+import {  FaInstagram  } from "react-icons/fa";
 
 import './Introtile.css';
-{/* <a href="https://github.com/Cpike95"><FaGithub /></a> */}
+
 export default function Introtile() {
 	return (
 		<div className="Introtile-Full-Container" id="home">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBContainer } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Navbarmenu.css';
@@ -25,39 +25,36 @@ class NavbarPage extends Component {
 						<MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
 							<MDBNavbarNav right>
 								<MDBNavItem>
-									<MDBNavLink to="/">
 										<Link smooth to="/path#home" id="HashLinkComponent">
 											Home
 										</Link>
-									</MDBNavLink>
 								</MDBNavItem>
 								<MDBNavItem>
-									<MDBNavLink to="/">
+									
 										<Link smooth to="/path#pricing" id="HashLinkComponent">
 											Packages
 										</Link>
-									</MDBNavLink>
+									
 								</MDBNavItem>
 								<MDBNavItem>
-									<MDBNavLink to="/">
+									<a href="https://gerasprodetailingllc.setmore.com/ " target='blank' id="HashLinkComponent">
+											Book an appointment
+									</a>
+								</MDBNavItem>
+								<MDBNavItem>
 										<Link smooth to="/path#about" id="HashLinkComponent">
 											About
 										</Link>
-									</MDBNavLink>
 								</MDBNavItem>
 								<MDBNavItem>
-									<MDBNavLink to="/">
 										<Link smooth to="/path#gallery" id="HashLinkComponent">
 											Gallery
 										</Link>
-									</MDBNavLink>
 								</MDBNavItem>
 								<MDBNavItem>
-									<MDBNavLink to="/">
 										<Link smooth to="/path#contact" id="HashLinkComponent">
 											Contact
 										</Link>
-									</MDBNavLink>
 								</MDBNavItem>
 							</MDBNavbarNav>
 						</MDBCollapse>

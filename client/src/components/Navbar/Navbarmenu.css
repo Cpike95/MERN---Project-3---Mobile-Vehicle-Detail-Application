@@ -1,6 +1,7 @@
 #HashLinkComponent {
 	text-decoration: none;
 	color: white;
+	padding: 8px;
 }
 
 #HashLinkComponent:hover {

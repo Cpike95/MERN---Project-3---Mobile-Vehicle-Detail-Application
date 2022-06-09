@@ -33,7 +33,7 @@ export default function Basic() {
                 
                 dateReq = new Date(dateReq);
                  
-                if (datas.iscompleted = true && dateReq < todaysDate ) {
+                if (datas.iscompleted === true && dateReq < todaysDate ) {
                    
                    rows.push(datas)
                  }
@@ -93,7 +93,6 @@ export default function Basic() {
             });
           });
         };
-        // console.log( datatable)
   return(
       <div>
             
