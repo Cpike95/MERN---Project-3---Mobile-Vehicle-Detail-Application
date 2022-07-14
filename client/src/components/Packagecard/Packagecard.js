@@ -17,6 +17,8 @@ const Packagecard = (props) => {
 						packageDetailTitle={props.packageDetailTitle}
 						packageBonusTitle={props.packageBonusTitle}
 						packageBonusArr={props.packageBonusArr}
+						packagePriceTitle={props.packagePriceTitle}
+						packagePriceArr={props.packagePriceArr}
 						packageEstimatedTimeTitle={props.packageEstimatedTimeTitle}
 						packageEstimatedTimeArr={props.packageEstimatedTimeArr}
 					/>

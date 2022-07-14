@@ -24,19 +24,19 @@ export default function Pricing() {
 											packageName={item.packageName}
 											packageDetailTitle={item.packageDetailTitle}
 											packageDetailBullets={item.packageDetailBullets}
-											// packagePriceTitle={item.packagePriceTitle}
-											// packagePriceArr={item.packagePriceArr}
+											packagePriceTitle={item.packagePriceTitle}
+											packagePriceArr={item.packagePriceArr}
 											packageBonusTitle={item.packageBonusTitle}
 											packageBonusArr={item.packageBonusArr}
-											packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
-											packageEstimatedTimeArr={item.packageEstimatedTimeArr}
+											// packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
+											// packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
 										/>
 									</MDBCol>
 								);
 							})}
 						</MDBRow>
-						<MDBRow>
+						{/* <MDBRow>
 							{PolishPackages.map((item, index) => {
 								return (
 									<MDBCol xl="4" className="pb-4" key={index}>
@@ -57,7 +57,7 @@ export default function Pricing() {
 									</MDBCol>
 								);
 							})}
-						</MDBRow>
+						</MDBRow> */}
 						{/* <MDBRow>
 							{CleaningPackages.map((item, index) => {
 								return (

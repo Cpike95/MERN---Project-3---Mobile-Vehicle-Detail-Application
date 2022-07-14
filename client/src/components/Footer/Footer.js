@@ -12,7 +12,7 @@ export default function Footer({ authorize, setAuthorize }) {
 				<MDBContainer fluid className="text-center text-md-left ">
 					<MDBRow>
 						<MDBCol md="6">
-							<h5 className="title">Gerra's Automotive Detailing Service Est. 2020</h5>
+							<h5 className="title">Gera's Automotive Detailing Service Est. 2020</h5>
 							<p>Comitted to giving our customers a quality service they wil never forget.</p>
 						</MDBCol>
 						<MDBCol md="6">
@@ -29,7 +29,7 @@ export default function Footer({ authorize, setAuthorize }) {
 			</MDBContainer>
 			<div className="footer-copyright text-center py-3">
 				<MDBContainer fluid>
-					&copy; {new Date().getFullYear()} Copyright: <p> Gerra's Automotive Detailing Service</p>
+					&copy; {new Date().getFullYear()} Copyright: <p> Gera's Automotive Detailing Service</p>
 
 				</MDBContainer>
 			</div>
