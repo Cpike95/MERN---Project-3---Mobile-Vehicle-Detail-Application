@@ -3,6 +3,7 @@ export const WashPackages = [
 		id: 0,
 		packageCat: 'Detailing Services',
 		packageName: 'Express Maintanance Detail',
+		// PackageDetailParagraph: 'This package is used for vehicles seen on a weekly, or bi-weekly basis. For first time client, please select our Signature Detail.',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
 			'Spotless Water Pre-Rinse', 
@@ -22,15 +23,16 @@ export const WashPackages = [
 		tNailSRC: '/Assets/Images/PricingTnails/ExpressDetail.jpg',
 		PackageDetailParagraph: 'Quick and affordable exterior detailing package.',
 		packageDepositTitle: 'Deposits: ',
-		// packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']	
+		packageDeposit: ['There is a $20 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']	
 	},
 	{
 		id: 1,
 		packageCat: 'Detailing Services',
-		packageName: 'Gera’s Signature Maintenance Detail',
+		packageName: 'Gera’s Signature Maintanance Detail',
+		// PackageDetailParagraph: 'Our Signature Detail is highly recommended and one of our most popular package. This allows us to establish a level a cleanliness for the interior and exterior of your vehicle. Express Maintenance Details are recommended for upkeep of your Signature Detail.',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [ 
-			'Express Maintenance Detail +',
+			'Express Maintanance Detail +',
 			'Paint Decontamination + Clay Bar ', 
 			'Apply Paint Sealant/Wax (6 Month Protection)', 
 			// 'Apply Wax/Sealant For Shine & Layer of Protection *',
@@ -38,72 +40,65 @@ export const WashPackages = [
 			// '(All chemicals used are of high quality & are water based to avoid any damage to vehicle) '
 			],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Vehicles: $200', 'Suv`s & Trucks: $250','Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Vehicles: $200', 'Suv`s & Trucks: $250','Additional fees applied for Ceramic Coated Vehicles +$20, Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 
 		tNailSRC: '/Assets/Images/PricingTnails/DetailWashNWax.jpg',
-		PackageDetailParagraph: 'Specialized vehicle exterior detailing package.',
+		PackageDetailParagraph: 'SSpecialized vehicle exterior detailing package - Our thorough and meticulous exterior focus detail package',
 		packageDepositTitle: 'Deposits: ',
-		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']
+		packageDeposit: ['There is a $50 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},
 	{
 		id: 2,
 		packageCat: 'Complete Package',
-		packageName: 'The "Full Detail"',
+		packageName: 'The "Full" Detail',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
-			'Spotless Water Pre-Rinse',
-			'PH Foam Wash w/ Microfiber Mitts',
-			'Spotless Water Rinse', 
-			'Wheels/Tires Cleaned', 
-			'Glass Interior/Exterior',
-			'Thorough Vacuum', 
-			'Interior Wipe Down',
+			'Express Maintenance Detail +',
 			'Paint Decontamination + Clay Bar',
-			'Apply Paint Sealant/Wax (6 Month Protection)',
-			'Non-Sling Tire Dressing',
-			'Carpet/Seats Shampoo',
+			'Apply Paint Sealant/Wax (6 Month Protection)', 
+			'Carpet/Seats Shampoo', 
 			'Leather Cleaned/Conditioned (If Applicable)',
-			'Interior Crevices/Vents Cleaned'
+			'Interior Crevices/Vents Cleaned', 
 		],
 		// packageBonusTitle: 'Bonus',
 		// packageBonusArr: ['Interior Leather/Plastic Parts Reconditioning', 'Dress Exterior Trims (Recondition of Black Trims)'],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Vehicles: $300', 'Suv`s & Trucks $350','Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Vehicles: $300', 'Suv`s & Trucks $350','Additional fees applied for Ceramic Coated Vehicles +$20, Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/DeepInteriorCleaning.jpg',
 		PackageDetailParagraph: 'All encompassing vehicle detailing package.',
 		packageDepositTitle: 'Deposits: ',
-		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']
+		packageDeposit: ['There is a $75 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},
 	{
 		id: 3,
 		packageCat: 'Complete Package',
-		packageName: 'Paint Enhancement Stage 1 Polish',
+		packageName: 'Paint Enhancement (Stage 1 Polish)',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
-			'Spotless Water Pre-Rinse',
-			'PH Foam Wash w/ Microfiber Mitts',
-			'Spotless Water Rinse', 
-			'Wheels/Tires Cleaned', 
-			'Glass Interior/Exterior',
-			'Thorough Vacuum', 
-			'Interior Wipe Down',
+			'Express Maintenance Detail +',
 			'Paint Decontamination + Clay Bar',
-			'Apply Paint Sealant/Wax (6 Month Protection)',
-			'Gloss Enhancement Polish (Minor Swirl + Scratch Removal)'
+			'Gloss Enhancement Polish (Minor Swirl + Scratch Removal)', 
+			'Apply Paint Sealant/Wax (6 Month Protection)', 
+			// 'Glass Interior/Exterior',
+			// 'Thorough Vacuum', 
+			// 'Interior Wipe Down',
+			// 'Paint Decontamination + Clay Bar',
+			// 'Apply Paint Sealant/Wax (6 Month Protection)',
+			// 'Gloss Enhancement Polish (Minor Swirl + Scratch Removal)'
 		],
 		// packageBonusTitle: 'Bonus',
 		// packageBonusArr: ['Interior Leather/Plastic Parts Reconditioning', 'Dress Exterior Trims (Recondition of Black Trims)'],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Vehicles: $600', 'Suv`s & Trucks $700','Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Vehicles: $600+', 'Suv`s & Trucks $700+','Additional fees applied for Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/TwoStepPolish.jpg',
-		PackageDetailParagraph: 'All encompassing vehicle detailing package.',
+		PackageDetailParagraph: ' All encompassing vehicle detailing package - designed for vehicle that require removal of light scratches and swirls.',
 		packageDepositTitle: 'Deposits: ',
-		packageDeposit: ['There is a $20 dollar deposit that is due when appointment is confirmed. This will be added to the total after service is complete. CANCELLATIONS: If cancelled within 24 hours of the appointment scheduled time $20 deposit is non-refundable. ']
+		packageDeposit: ['There is a $100 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},
 ];

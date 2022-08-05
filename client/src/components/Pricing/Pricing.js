@@ -31,6 +31,7 @@ export default function Pricing() {
 											// packageEstimatedTimeTitle={item.packageEstimatedTimeTitle}
 											// packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
+											packageDeposit={item.packageDeposit}
 										/>
 									</MDBCol>
 								);
