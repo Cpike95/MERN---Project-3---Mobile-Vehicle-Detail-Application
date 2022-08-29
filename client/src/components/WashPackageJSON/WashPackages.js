@@ -2,7 +2,7 @@ export const WashPackages = [
 	{
 		id: 0,
 		packageCat: 'Detailing Services',
-		packageName: 'Express Maintanance Detail',
+		packageName: 'Express Maintenance Detail',
 		// PackageDetailParagraph: 'This package is used for vehicles seen on a weekly, or bi-weekly basis. For first time client, please select our Signature Detail.',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [
@@ -17,7 +17,7 @@ export const WashPackages = [
 			'Spray Wax'
 		],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Vehicles: $70', 'Suv`s & Trucks: $80','Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
+		packagePriceArr: ['Vehicles: $70+', 'Suv`s & Trucks: $80+','Additional fees applied for Ceramic Coated Vehicles +$20, Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation. Additional Fees will be applied for Pet Hair, Extra Dirty Vehicles, Mud & heavily soiled interiors. For an accurate quote please contact me via phone at (818)915-1828. There is a $20 dollar cancellation fee if cancelled within 12 hours of appointment.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/ExpressDetail.jpg',
@@ -29,7 +29,7 @@ export const WashPackages = [
 		id: 1,
 		packageCat: 'Detailing Services',
 		packageName: 'Gera’s Signature Maintanance Detail',
-		// PackageDetailParagraph: 'Our Signature Detail is highly recommended and one of our most popular package. This allows us to establish a level a cleanliness for the interior and exterior of your vehicle. Express Maintenance Details are recommended for upkeep of your Signature Detail.',
+		// PackageDetailParagraph: 'Specialized vehicle exterior detailing package - Our thorough and meticulous exterior focus detail package',
 		packageDetailTitle: 'Package Includes:',
 		packageDetailBullets: [ 
 			'Express Maintanance Detail +',
@@ -40,12 +40,12 @@ export const WashPackages = [
 			// '(All chemicals used are of high quality & are water based to avoid any damage to vehicle) '
 			],
 		packagePriceTitle: 'Prices:',
-		packagePriceArr: ['Vehicles: $200', 'Suv`s & Trucks: $250','Additional fees applied for Ceramic Coated Vehicles +$20, Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
+		packagePriceArr: ['Vehicles: $200+', 'Suv`s & Trucks: $250+','Additional fees applied for Ceramic Coated Vehicles +$20, Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 
 		tNailSRC: '/Assets/Images/PricingTnails/DetailWashNWax.jpg',
-		PackageDetailParagraph: 'SSpecialized vehicle exterior detailing package - Our thorough and meticulous exterior focus detail package',
+		PackageDetailParagraph: 'Specialized vehicle exterior detailing package. Our thorough and meticulous exterior focus detail package',
 		packageDepositTitle: 'Deposits: ',
 		packageDeposit: ['There is a $50 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},
@@ -69,7 +69,7 @@ export const WashPackages = [
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/PricingTnails/DeepInteriorCleaning.jpg',
-		PackageDetailParagraph: 'All encompassing vehicle detailing package.',
+		PackageDetailParagraph: 'All encompassing vehicle detailing package. A showroom finish focusing on the exterior and interior.',
 		packageDepositTitle: 'Deposits: ',
 		packageDeposit: ['There is a $75 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},
@@ -92,12 +92,13 @@ export const WashPackages = [
 		],
 		// packageBonusTitle: 'Bonus',
 		// packageBonusArr: ['Interior Leather/Plastic Parts Reconditioning', 'Dress Exterior Trims (Recondition of Black Trims)'],
+		packageSubtitle: 'Popular package to add on ceramic coating protection.',
 		packagePriceTitle: 'Prices:',
 		packagePriceArr: ['Vehicles: $600+', 'Suv`s & Trucks $700+','Additional fees applied for Pet Hair Removal +$75, Heavily Soiled Interior +$50, Excessive Mud & Filth +$50. For accurate quotes please schedule our free 30 min consultation.'],
 		packageEstimatedTimeTitle: 'Est. Time:',
 		packageEstimatedTimeArr: ['The time for this service will depend on the current condition of the vehicle. Please call or send an email to request a quote'],
 		tNailSRC: '/Assets/Images/TwoStepPolish.jpg',
-		PackageDetailParagraph: ' All encompassing vehicle detailing package - designed for vehicle that require removal of light scratches and swirls.',
+		PackageDetailParagraph: 'All encompassing vehicle detailing package. Designed for vehicle that require removal of light scratches and swirls.',
 		packageDepositTitle: 'Deposits: ',
 		packageDeposit: ['There is a $100 Deposit Fee, this fee is discounted from the total. This fee allows for us to stay on schedule, if cancelled within 24 hours, deposit is not refundable. Please submit all deposits via Zelle @818-915-1828 or Venmo @gerasprodetailing']
 	},

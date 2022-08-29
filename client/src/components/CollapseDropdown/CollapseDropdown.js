@@ -38,6 +38,7 @@ class CollapseDropdown extends Component {
 							return <li className="Package-BulletPts text-left" key={index} >{item}</li>;
 						}) : ''}
 					</ul>
+					<p className="Package-BulletPts-Subtitle">{this.props.packageSubtitle ? `${this.props.packageSubtitle}` : ''}</p>
 					{/* <h4 className="Package-BulletPts-Title">{this.props.packageEstimatedTimeTitle}</h4>
 					<ul>
 						{this.props.packageEstimatedTimeArr.map((item, index) => {

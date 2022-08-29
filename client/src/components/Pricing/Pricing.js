@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import { WashPackages } from '../WashPackageJSON/WashPackages';
 // import { CleaningPackages } from '../WashPackageJSON/CleaningPackages';
-import { PolishPackages } from '../WashPackageJSON/PolishPackages';
+// import { PolishPackages } from '../WashPackageJSON/PolishPackages';
 
 import './Pricing.css';
 import Packagecard from '../Packagecard/Packagecard';
@@ -32,6 +32,7 @@ export default function Pricing() {
 											// packageEstimatedTimeArr={item.packageEstimatedTimeArr}
 											PackageDetailParagraph={item.PackageDetailParagraph}
 											packageDeposit={item.packageDeposit}
+											packageSubtitle={item.packageSubtitle}
 										/>
 									</MDBCol>
 								);

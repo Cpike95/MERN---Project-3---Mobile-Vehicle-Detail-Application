@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBContainer, MDBBtn, MDBModal, MDBModalBody, MDBModalHeader } from 'mdbreact';
+import { MDBContainer, MDBModal, MDBModalBody, MDBModalHeader } from 'mdbreact';
 import './BookServiceModal.css';
 import BookingServiceForm from '../BookingServiceForm/BookingServiceForm';
 import BookingServiceAlert from '../BookingServiceAlert/BookingServiceAlert';

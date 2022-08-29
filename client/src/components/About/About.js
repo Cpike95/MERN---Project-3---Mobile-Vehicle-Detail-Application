@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardBody, MDBCardText, MDBCardTitle } from 'mdbreact';
+import { MDBJumbotron, MDBContainer, MDBRow, MDBCol, MDBCardBody, MDBCardText } from 'mdbreact';
 import './About.css';
 
 export default function About() {

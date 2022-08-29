@@ -22,6 +22,7 @@ const Packagecard = (props) => {
 						packageEstimatedTimeTitle={props.packageEstimatedTimeTitle}
 						packageEstimatedTimeArr={props.packageEstimatedTimeArr}
 						packageDeposit={props.packageDeposit}
+						packageSubtitle={props.packageSubtitle}
 					/>
 
 					<BookServiceModal packageName={props.packageName} />
